@@ -1,0 +1,112 @@
+.ui-today {
+   display: none;
+   position: absolute;
+   font: 1rem Arial, sans-serif;
+   text-decoration: underline;
+}
+
+.ui-datepicker {
+   /* width: 90%; */
+   height: auto;
+   margin: 5px auto 0;
+   font: 9pt Arial, sans-serif;
+}
+.ui-datepicker table {
+   width: 100%;
+}
+
+.ui-datepicker a {
+   text-decoration: none;
+   color: inherit;
+   font-size: 1rem;
+}
+
+/* .css-class-to-highlight {
+   background-color: #ff0;
+} */
+
+/* .ui-datepicker-prev span {
+   display: block;
+} */
+.ui-datepicker-header.ui-widget-header {
+   /* height: 3rem; */
+   display: flex;
+   justify-content: space-evenly;
+   /* justify-content: center; */
+   align-items: center;
+}
+.ui-datepicker-title {
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.ui-datepicker-next.ui-corner-all,
+.ui-datepicker-prev.ui-corner-all {
+   font-size: 1.5rem;
+}
+
+.ui-datepicker-next {
+   /* float: right;
+   margin-right: 100px;
+   background-position: center; */
+}
+
+.ui-datepicker th {
+   text-transform: uppercase;
+   font-size: 1rem;
+   padding: 5px 0;
+   text-shadow: 1px 0px 0px #fff;
+   /* filter: dropshadow(color=#fff, offx=1, offy=0); */
+}
+
+.ui-datepicker tbody td {
+   height: 40px;
+   width: 40px;
+   padding: 0;
+   text-align: center;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+   display: inline-block;
+   font-weight: bold;
+   text-align: center;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+}
+
+.selected-day {
+   border-radius: 100%;
+   background-color: rgb(215, 164, 84);
+   color: white;
+}
+.selected-day-middle {
+   background-color: rgba(215, 164, 84, 0.14);
+   border-collapse: collapse;
+   /* border-spacing: 10px; */
+}
+
+.ui-datepicker td:hover {
+   border-radius: 100%;
+   background-color: rgb(215, 164, 84);
+   color: white;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+   color: rgba(81, 81, 81, 0.3);
+}
+
+.ui-datepicker thead tr th:first-child,
+.ui-datepicker tbody tr td:first-child {
+   color: red;
+}
+
+/* th {
+   border-bottom: 1px solid rgba(81, 81, 81, 0.1);
+}
+
+hr.solid {
+   border-top: 1px solid rgba(81, 81, 81, 0.1);
+} */
+
+/*# sourceMappingURL=datepicker.css.map */
