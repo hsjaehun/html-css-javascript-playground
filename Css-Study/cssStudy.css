@@ -1,0 +1,19 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+.absolute {
+   display: block;
+   position: absolute;
+   overflow: hidden;
+   width: 100vw;
+   height: 100vh;
+   justify-content: center;
+   align-items: flex-end;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+.header {
+   background-color: red;
+   width: 10px;
+   height: 10px;
+}

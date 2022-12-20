@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8" />
+      <title>Dynamic Calendar JavaScript | CodingNepal</title>
+      <link rel="stylesheet" href="basicDatePicker.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Google Font Link for Icons -->
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      />
+      <script src="basicDatePicker.js" defer></script>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header>
+            <p class="current-date"></p>
+            <div class="icons">
+               <span id="prev" class="material-symbols-rounded"
+                  >chevron_left</span
+               >
+               <span id="next" class="material-symbols-rounded"
+                  >chevron_right</span
+               >
+            </div>
+         </header>
+         <div class="calendar">
+            <ul class="weeks">
+               <li style="color: red">일</li>
+               <li>월</li>
+               <li>화</li>
+               <li>수</li>
+               <li>목</li>
+               <li>금</li>
+               <li>토</li>
+            </ul>
+            <hr />
+            <ul class="days"></ul>
+         </div>
+      </div>
+   </body>
+</html>
