@@ -28,13 +28,35 @@
 /* .ui-datepicker-prev span {
    display: block;
 } */
+.ui-datepicker-title {
+   text-align: center;
+}
+
+/* .ui-datepicker-prev,
+.ui-datepicker-next {
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   text-align: center; 
+   cursor: pointer;
+} */
+.ui-datepicker-prev {
+   float: left;
+   background-position: center -30px;
+}
+.ui-datepicker-next {
+   float: right;
+   background-position: center 0px;
+}
 .ui-datepicker-header.ui-widget-header {
    /* height: 3rem; */
-   display: flex;
-   justify-content: space-evenly;
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: space-evenly; */
    /* justify-content: center; */
-   align-items: center;
+   /* align-items: center; */
 }
+
 .ui-datepicker-title {
    font-size: 1.2rem;
    font-weight: bold;
@@ -42,12 +64,6 @@
 .ui-datepicker-next.ui-corner-all,
 .ui-datepicker-prev.ui-corner-all {
    font-size: 1.5rem;
-}
-
-.ui-datepicker-next {
-   /* float: right;
-   margin-right: 100px;
-   background-position: center; */
 }
 
 .ui-datepicker th {

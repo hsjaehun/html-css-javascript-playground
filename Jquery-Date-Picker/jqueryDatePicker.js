@@ -16,6 +16,10 @@
    //    },
    // });
 
+   let arr = [2, 3, 4];
+   arr.unshift(1);
+   console.log(arr);
+
    const today = new Date();
    const todayElem = document.querySelector(".ui-today");
    todayElem.addEventListener("click", () => {
